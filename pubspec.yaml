@@ -1,0 +1,33 @@
+name: flutter_safety_app
+description: "A new Flutter project for the Safety App."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  http: ^1.1.0
+  shared_preferences: ^2.2.1
+  geolocator: ^10.1.0 # For SOS location mapping (requires permissions later)
+  google_fonts: ^8.0.2
+  animate_do: ^4.2.0
+  flutter_map: ^8.2.2
+  latlong2: ^0.9.1
+  intl_phone_field: ^3.2.0
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/safety_logo.png
