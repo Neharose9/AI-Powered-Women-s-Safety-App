@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Flutter Native Safety App (REST API approach)
 
 This folder contains the source code for your **Native Flutter Application**.
@@ -36,3 +37,6 @@ Since `flutter` is currently NOT installed or configured in your system's PATH, 
 - **Login / Register**: Connects to your newly created Django REST APIs (`api/login/` and `api/register/`).
 - **SafetyApp Dashboard**: Fetches user cases dynamically.
 - **SOS Button**: Uses the device geolocation to send SOS to your Django backend, which then sends the emails via the API.
+=======
+# AI-Powered-Women-s-Safety-App
+>>>>>>> 414f16020c3bb8e53f21c7dc4f7757aed9e558c3
